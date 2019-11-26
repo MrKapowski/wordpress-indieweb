@@ -526,7 +526,7 @@ class HCard_User {
 				$user,
 				$args['avatar_size'],
 				'default',
-				'',
+				$user->get( 'display_name' ),
 				array(
 					'class' => array( 'u-photo', 'hcard-photo' ),
 				)
